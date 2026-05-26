@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6D5EF6"/>
+      <stop offset="1" stop-color="#3F63F5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景（角丸スクエア） -->
+  <rect x="64" y="64" width="896" height="896" rx="205" fill="url(#bg)"/>
+
+  <!-- クリップ（上部のタブ） -->
+  <rect x="432" y="214" width="160" height="74" rx="26" fill="#9AA3BD"/>
+  <rect x="456" y="200" width="112" height="56" rx="22" fill="#EEF1FB"/>
+
+  <!-- クリップボード本体（白） -->
+  <rect x="272" y="250" width="480" height="602" rx="46" fill="#FFFFFF"/>
+
+  <!-- ドキュメントの行を示す薄いバー -->
+  <rect x="340" y="328" width="344" height="26" rx="13" fill="#C9CEDC"/>
+  <rect x="340" y="386" width="240" height="26" rx="13" fill="#D7DBE7"/>
+
+  <!-- 紙飛行機（送る / フィード） -->
+  <g transform="translate(337,412) scale(14)">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" fill="#4A5BE8"/>
+  </g>
+</svg>

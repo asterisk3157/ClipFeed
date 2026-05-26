@@ -1,0 +1,17 @@
+# Build artifacts
+ClipFeed.app/
+*.o
+
+# Icon generation intermediates (AppIcon.icns はコミットする)
+ClipFeed.iconset/
+.icontmp/
+qltmp/
+
+# Compiled dev tool (source: Tools/clipinspect.swift)
+Tools/clipinspect
+
+# Preview / test renders
+icon_test*.png
+
+# macOS
+.DS_Store
